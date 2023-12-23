@@ -1,0 +1,274 @@
+        * {
+            margin: 0;
+            padding: 0;
+            color: var(--color);
+        }
+        
+         :root {
+            --color: #fff;
+            --secolor: black;
+        }
+        
+        body .hero {
+            background-image: url("homg-img.png");
+            /* background-size: cover; */
+            background-repeat: no-repeat;
+            height: 85vh;
+            margin: 0;
+            /* width: 100vw; */
+            background-size: 100% 100%;
+        }
+        
+        header {
+            display: flex;
+            justify-content: space-between;
+            background-color: rgb(1, 111, 255);
+            height: 40px;
+            padding: 10px 20px;
+            /* Adjust padding as needed */
+            font-weight: 600;
+            position: sticky;
+            top: 0;
+            color: var(--color);
+        }
+        
+        header>a {
+            font-size: 23px;
+            padding-left: 153px;
+            text-decoration: none;
+            font-weight: bolder;
+        }
+        
+        .nav-heading {
+            display: flex;
+            gap: 5px;
+            list-style: none;
+        }
+        
+        nav ul li {
+            padding-right: 19px;
+        }
+        
+        nav ul li a {
+            text-decoration: none;
+            font-size: 18px;
+        }
+        
+        nav ul li a:hover {
+            color: rgb(39, 93, 164);
+            text-decoration: none;
+        }
+        
+        .hero {
+            display: flex;
+            margin: 104px;
+        }
+        
+        .right {
+            padding-left: 104px;
+        }
+        
+        .right img {
+            height: 464px;
+            object-fit: cover;
+            margin-top: 173px;
+        }
+        
+        .left>p {
+            padding-top: 3px;
+        }
+        
+        .left {
+            padding-top: 275px;
+            padding-left: 111px;
+            font-size: 1.9rem;
+        }
+        
+        button {
+            color: black;
+            margin-top: 15px;
+            padding: 7px 28px 7px 28px;
+            border: 1px solid black;
+            border-radius: 13px;
+            font-weight: bold;
+            cursor: pointer;
+            background-color: rgb(1, 111, 255);
+        }
+        
+        button:hover {
+            background-color: #fff;
+        }
+        /* content section */
+        
+        .second-section {
+            background-color: rgb(22, 21, 21);
+            margin-top: 73px;
+        }
+        
+        .left-about>img {
+            height: 464px;
+            object-fit: cover;
+        }
+        
+        .second-section {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        
+        .right-about>ul {
+            list-style: none;
+            padding-top: 14px;
+        }
+        
+        .right-about>p {
+            padding-top: 4px;
+        }
+        
+        ul li {
+            padding-top: 10px;
+            font-size: 1.2rem;
+        }
+        /* features section */
+        
+        .third-features {
+            margin-top: 64px;
+        }
+        
+        .third-features,
+        .third-features * {
+            color: var(--secolor) !important;
+        }
+        
+        .features-image {
+            height: 9.4rem;
+        }
+        
+        .third-features .bottom-features {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 107px 35px 96px 150px;
+        }
+        
+        .third-features .top-features {
+            text-align: center;
+            padding-top: 28px;
+        }
+        
+        .third-features {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        /* product section */
+        
+        .fourth-product {
+            background-color: #ece8e3;
+            padding: 39px;
+            border-radius: 15px;
+        }
+        
+        .fourth-product,
+        .fourth-product * {
+            color: var(--secolor) !important;
+            text-align: center;
+        }
+        
+        .fourth-product>.product-heading {
+            font-size: 2.3rem;
+        }
+        
+        .product-image {
+            height: 17.4rem;
+            object-fit: cover;
+        }
+        
+        .fourth-product .bottom-product {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .content-product {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background-color: #fff;
+            border: none;
+            border-radius: 14px;
+            margin: 18px;
+        }
+        
+        .fivth-contact,
+        .fivth-contact * {
+            color: var(--secolor) !important;
+        }
+        
+        .fivth-contact {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #dfe8f0;
+            padding: 50px;
+        }
+        
+        .fivth-contact .form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 32px;
+        }
+        
+        #firstName,
+        #lastName,
+        #email,
+        #mobile,
+        #description {
+            margin: 12px;
+            width: 233px;
+            height: 28px;
+        }
+        
+        .fivth-contact h3 {
+            padding-left: 40px;
+            font-size: 2.1rem;
+        }
+        
+        .sixth-faq {
+            height: 18.9rem;
+            object-fit: cover;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            margin: 100px;
+        }
+        
+        .sixth-faq,
+        .sixth-faq * {
+            color: var(--secolor) !important;
+        }
+        
+        .sixth-faq img {
+            height: 17rem;
+            object-fit: cover;
+        }
+        /* .sixth-faq .right-faq {
+                width: 23px;
+            } */
+        
+        .blue {
+            background-color: rgb(1, 111, 255);
+            margin-top: 23px;
+            font-weight: 600;
+            width: 500px;
+            font-size: 1.2rem;
+            text-align: center;
+            height: 45px;
+            border: 1px solid black;
+            border-radius: 7px;
+            padding-top: 10px;
+            cursor: pointer;
+        }
